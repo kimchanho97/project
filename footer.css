@@ -1,0 +1,15 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 30px;
+    border-top: 1px solid rgb(180, 170, 170);
+}
+
+@media screen and (max-width:924px){
+    footer{
+        display: none;
+    }
+}
