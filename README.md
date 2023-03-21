@@ -12,6 +12,5 @@
 ## 구현
 + Index Page
 
-<img width = "80%" src = "
-https://user-images.githubusercontent.com/104095041/226707195-3b93fefa-727a-4e5f-8f20-bd5a616e4e37.mp4
-">
+![Index page](https://user-images.githubusercontent.com/104095041/226713936-f8df1c20-3818-45fc-9068-44f47cc17fbc.gif)
+
