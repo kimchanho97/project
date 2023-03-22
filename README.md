@@ -1,6 +1,6 @@
-# 헬스캠퍼스 Front-end 소개
-+ 홈페이지: <https://www.kakaotechcampus.com/>
-+ 짧은 기간동안 기술 및 구형 클론코딩
+# 헬스캠퍼스 Front-end
++ 클론코딩: <https://www.kakaotechcampus.com/>
++ 짧은 기간동안 기술 및 구현
 + HTML, CSS, JAVASCRIPT 연습 및 공부 목적
 
 ## 개발 기간 및 인원
