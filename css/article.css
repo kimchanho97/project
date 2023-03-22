@@ -1,24 +1,32 @@
 /* container */
 .container{
     text-align: center;
-    position: absolute;
-    top: 150px;
     width: 100%;
     height: 85vh;
 }
 .container img{
     display: block;
     width: 100%;
-    height: 45vh;
+    height: 100vh;
+    z-index: 1;
 }
-.container h1{
-    width: 100%;
-    font-size: 48px;
+.container .wrap_contents{
+    width: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    text-align: left;
+}
+.wrap_contents h1{
+    font-size: 46px;
     line-height: 1.35;
 }
-.container button{
+.wrap_contents #small_text{
+    display: none;
+}
+.wrap_contents button{
     background-color: black;
-    text-align: center;
     padding: 15px 30px;
     color: white;
     border-radius: 30px;
@@ -26,5 +34,32 @@
 
 .linkbtn:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+    .container .wrap_contents{
+        text-align: center;
+        width: 80%;
+        z-index: 2;
+        left: 10vw;
+        top: 20vh;
+    }
+    .wrap_contents #big_text{
+        display: none;
+    }
+    .wrap_contents #small_text{
+        display: block;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .container .wrap_contents{
+        top: 120px;
+        left: 50px;
+        position: absolute;
+    }
+    .wrap_contents h1{
+        font-size: 28px;
+    }
 }
 

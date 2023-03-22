@@ -1,6 +1,7 @@
 # 헬스캠퍼스 Front-end 소개
 + 홈페이지: <https://www.kakaotechcampus.com/>
-+ 짧은 기간동안 Design 및 Layout 클론코딩
++ 짧은 기간동안 기술 및 구형 클론코딩
++ HTML, CSS, JAVASCRIPT 연습 및 공부 목적
 
 ## 개발 기간 및 인원
 + 개발 기간: 2023.03.19 ~
@@ -18,4 +19,13 @@
 + Index Page
 
 ![Index page](https://user-images.githubusercontent.com/104095041/226713936-f8df1c20-3818-45fc-9068-44f47cc17fbc.gif)
+
++ 최종 수정본
+
+![Index page](https://user-images.githubusercontent.com/104095041/226895080-1e7d95a8-e413-450c-ac94-8d345ab8b44e.gif)
+
+시작 페이지 동일하게 구현
+> + 상단 navbar 고정
+> + 미디어 쿼리 영역 추가
+> + container text styling 변환
 

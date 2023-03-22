@@ -8,6 +8,8 @@ a{
 
 .navbar{
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 .navbar_logo{
     position:absolute;
@@ -28,10 +30,10 @@ a{
     justify-content: end;
 }
 .navbar_menu li{
-    padding: 8px 20px;
+    padding: 30px 20px;
 }
 .navbar_menu a{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .navbar_menu li:hover a{
     border-bottom: 2px solid black;
@@ -39,24 +41,42 @@ a{
 
 .navbar_btn{
     position: absolute;
-    right: 32px;
+    right: 64px;
     top: 72px;
     display: none;
 }
 .navbar_btn img{
-    width: 32px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
+}
+.navbar_btn #btn_close{
+    display: none;
 }
 
-@media screen and (max-width:924px) {
+@media screen and (max-width:1024px) {
     .navbar{
         justify-content: flex-end;
+        z-index: 3;
     }
 
     .navbar_btn{
         display: block;
-        z-index: 2;
     }
+    .navbar_btn.active{
+        top: 30px;
+        right: 30px;
+    }
+    .navbar_btn.active #btn_menu{
+        display: none;
+    }
+    .navbar_btn.active #btn_close{
+        display: block;
+    }
+    .navbar_btn.active img{
+        width: 16px;
+        height: 16px;
+    }
+    
 
     .navbar_menu li{
         display: none;
@@ -66,6 +86,7 @@ a{
     .navbar_menu.active li{
         display: flex;
         flex-direction: column;
+        font-weight: bold;
     }
     .navbar_menu.active{
         flex-direction: column;
@@ -77,9 +98,15 @@ a{
         background: rgba(255,255,255,.95);
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.16);
         backdrop-filter: blur(2px);
-        z-index: 2;
     }
     .navbar_menu.active li:hover a{
         border-bottom: 0px;
     }
+
+}
+@media screen and (max-width:560px) {
+    .navbar_menu.active{
+        width: 100%;
+    }
+    
 }
