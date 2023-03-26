@@ -1,4 +1,111 @@
+/* header */
+.navbar{
+    backdrop-filter: blur(30px);
+    position: fixed;
+}
+
+/* section */
 .container{
-    font-size: 300px;
-    display: block;
+    /* 상단 navbar 높이 */
+    padding-top: 152px;  
+    height: 300vh;
+}
+.roadmap, .track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.road_title, .track_title{
+    width: 100%;
+    padding: 60px;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+}
+.road_title p, .track_title p{
+    font-size: 20px;
+}
+.road_content{
+    background: #FAFAFA;
+    background-image: url('https://www.kakaotechcampus.com/static/user/images/kakao/program_spot.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    width: 90%;
+    height: 580px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.road_content_box{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70%;
+    width: 80%;
+    align-items: center;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.stage1, .stage2, .stage3{
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stage1{
+    align-self: flex-end;
+}
+.stage2{
+    align-self: center;
+}
+.stage3{
+    align-self: flex-start;
+}
+.road_content p{
+    text-align: center;
+}
+.road_content_box .txt{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.track_title{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track-btn{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.track-btn button{
+    width: 200px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #634Bff;
+    color: white;
+    border-radius: 28px;
+}
+.track-btn button:hover{
+    cursor: pointer;
+}
+
+.track_content_box{
+    background: #FAFAFA;
+}
+.track_content_box .cont_title{
+    font-size: 28px;
+    font-weight: bold;
 }
