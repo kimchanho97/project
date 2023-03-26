@@ -1,20 +1,23 @@
 body{
-    margin: 0;
+    margin: 0px;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
 
 .navbar{
-    display: flex;
+    display:flex;
     position: fixed;
     width: 100%;
+    justify-content: flex-end;
 }
+
 .navbar_logo{
-    position:absolute;
-    left: 48px;
-    top:24px
+    position: absolute;
+    left: 50px;
+    top: 20px
 }
 .navbar_logo img{
     width: 100px;
@@ -22,18 +25,17 @@ a{
 }
 
 .navbar_menu{
-    width: 100%;
-    padding: 40px;
     display: flex;
+    margin: 0px;
+    padding: 50px 36px;
     list-style: none;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: end;
 }
 .navbar_menu li{
-    padding: 30px 20px;
+    padding: 12px 30px;
 }
 .navbar_menu a{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .navbar_menu li:hover a{
     border-bottom: 2px solid black;
@@ -41,72 +43,87 @@ a{
 
 .navbar_btn{
     position: absolute;
-    right: 64px;
-    top: 72px;
+    right: 56px;
+    top: 56px;
     display: none;
 }
 .navbar_btn img{
     width: 36px;
     height: 36px;
 }
-.navbar_btn #btn_close{
-    display: none;
-}
 
 @media screen and (max-width:1024px) {
     .navbar{
-        justify-content: flex-end;
-        z-index: 3;
+        z-index: 2;
     }
-
+    .navbar_menu{
+        display: none;
+    }
+    
     .navbar_btn{
         display: block;
     }
-    .navbar_btn.active{
+    .navbar_btn #btn_close{
+        display: none;
+    }
+    
+    .navbar.active .navbar_btn{
         top: 30px;
         right: 30px;
     }
-    .navbar_btn.active #btn_menu{
-        display: none;
-    }
-    .navbar_btn.active #btn_close{
+    .navbar.active #btn_close{
         display: block;
     }
-    .navbar_btn.active img{
+    .navbar.active #btn_menu{
+        display: none;
+    }
+    .navbar.active .navbar_btn img{
         width: 16px;
         height: 16px;
     }
-    
 
-    .navbar_menu li{
-        display: none;
-        text-align: left;
-        border-bottom: 1px solid black;
-    }
-    .navbar_menu.active li{
+    .navbar.active .navbar_menu{
         display: flex;
-        flex-direction: column;
         font-weight: bold;
-    }
-    .navbar_menu.active{
         flex-direction: column;
-        justify-content: flex-start;
-        width: 40%;
-        height: 80vh;
-        margin:0px;
-        padding:100px 30px;
+        padding-top: 100px;
+        width: 42%;
+        height: 100vh;
         background: rgba(255,255,255,.95);
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.16);
         backdrop-filter: blur(2px);
+        transition: width 0.5s ease-in-out;
     }
-    .navbar_menu.active li:hover a{
+    .navbar.active .navbar_menu li{
+        padding: 24px 12px;
+        border-bottom: 1px solid rgb(178, 174, 174);
+    }
+    .navbar.active .navbar_menu li:hover a{
         border-bottom: 0px;
     }
 
 }
-@media screen and (max-width:560px) {
-    .navbar_menu.active{
+@media screen and (max-width:768px) {
+    .navbar_logo{
+        position: absolute;
+        left: 32px;
+    }
+    .navbar_logo img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar_btn{
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    .navbar_btn img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .navbar.active .navbar_menu{
         width: 100%;
     }
-    
 }

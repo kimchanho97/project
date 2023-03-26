@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/article.css">
+    <link rel="stylesheet" href="../css/program.css">
+    <link rel="stylesheet" href="../css/aboutSection.css">
     <title>헬스캠퍼스</title>
     <script src="../js/startpage.js" defer></script>
-</head>
+</head> 
 <body>
     <!-- header -->
     <nav class="navbar">
         <div class="navbar_logo">
             <a href="./index.html">
-                <img src="https://cdn-icons-png.flaticon.com/512/1416/1416232.png" alt="운동프로그램" >
+                <img src="https://cdn-icons-png.flaticon.com/512/1416/1416232.png" alt="&copy;flaticon icon" >
             </a>            
         </div>
         <ul class="navbar_menu">
@@ -25,14 +27,37 @@
             <li><a href="./information.html">Information</a></li>
         </ul>
         <div class="navbar_btn">
-            <a href="#">
-                <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/01/hamburger-menu.png?fit=1200%2C600&ssl=1" alt="">
+            <a href="#" id="btn_menu">
+                <img src="https://cdn-icons-png.flaticon.com/512/8369/8369194.png" alt="&copy;flaticon icon">
+            </a>
+            <a href="#" id="btn_close">
+                <img src="https://cdn-icons-png.flaticon.com/128/657/657059.png" alt="&copy;flaticon">
             </a>
         </div>
     </nav>
+    <!-- section -->
+    <article class="container">
+        <img src="https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" alt="&copy;unsplash 운동이미지">
+        <div class="wrap_contents">
+            <h1 id="big_text">
+                헬스 캠퍼스에서는 
+                <br>
+                함께 운동하며 근성장합니다
+            </h1>
+            <h1 id="small_text">
+                헬스 캠퍼스에서는 
+                <br>                
+                함께 운동하며
+                <br>
+                근성장합니다
+            </h1>
+        <button type="button" class="linkbtn" onclick="location.href='about.html'">더 알아보기</button>
+        </div>
+    </article>
     <!-- footer -->
     <footer class="footerbar">
         <p class="copyright">&copy;Health Campus.All rights reserved.</p>
     </footer>
+
 </body>
 </html>

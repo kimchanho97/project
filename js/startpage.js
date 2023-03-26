@@ -1,10 +1,6 @@
 const btn = document.querySelector('.navbar_btn');
-const menu = document.querySelector('.navbar_menu');
-const sidemenu = document.querySelector('.navbar_sidemenu');
-
+const navbar = document.querySelector('.navbar');
 
 btn.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    btn.classList.toggle('active');
-    sidemenu.classList.toggle('active');
+    navbar.classList.toggle('active');
 }); // 지정하고 있는 함수 호출
