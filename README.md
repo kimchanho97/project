@@ -25,6 +25,7 @@
 > + container text styling 변환
 > + animation 효과 추가
 + About page
+
 준비중
 
 + Program page
@@ -32,6 +33,7 @@
 
 + Apply page
 <img width="1440" alt="스크린샷 2023-03-27 오전 3 30 58" src="https://user-images.githubusercontent.com/104095041/227796537-fa3b90c5-a4a7-4de8-bf57-7a5920e9d644.png">
+
 + Information page
 <img width="1440" alt="스크린샷 2023-03-27 오전 3 31 05" src="https://user-images.githubusercontent.com/104095041/227796589-b1a302f6-964a-4e1f-b015-f96d344ac942.png">
 
