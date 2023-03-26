@@ -91,7 +91,9 @@ a{
         height: 100vh;
         background: rgba(255,255,255,.95);
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.16);
+        /* blurring effect */
         backdrop-filter: blur(2px);
+        /* animation */
         transition: width 0.5s ease-in-out;
     }
     .navbar.active .navbar_menu li{
@@ -109,8 +111,8 @@ a{
         left: 32px;
     }
     .navbar_logo img{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .navbar_btn{
@@ -119,8 +121,8 @@ a{
         top: 32px;
     }
     .navbar_btn img{
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
     }
 
     .navbar.active .navbar_menu{

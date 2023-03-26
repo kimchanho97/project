@@ -30,6 +30,7 @@
     background-image: url('https://www.kakaotechcampus.com/static/user/images/kakao/program_spot.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    /* background-position: x y */
     background-position: center 50px;
     width: 90%;
     height: 580px;
@@ -88,15 +89,16 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 36%;
 }
 .track-btn button{
-    width: 200px;
+    width: 240px;
     height: 56px;
     font-size: 20px;
     background-color: #634Bff;
     color: white;
     border-radius: 28px;
+    border: 0px;
 }
 .track-btn button:hover{
     cursor: pointer;
@@ -108,4 +110,9 @@
 .track_content_box .cont_title{
     font-size: 28px;
     font-weight: bold;
+}
+
+.footerbar{
+    /* change fixed to relative */
+    position: relative;
 }

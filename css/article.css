@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     background: url(https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80);
+    /* image를 확대 축소하여 다 덮도록 함 */
     background-size: cover;
     background-position: center;
 }
