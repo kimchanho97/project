@@ -38,10 +38,11 @@
   ![Program page](https://user-images.githubusercontent.com/104095041/227796928-6cc80775-360c-4fc5-9836-c70dc3f16272.gif)
 
 - <b>Apply page</b>
-  <img width="1440" alt="스크린샷 2023-03-27 오전 3 30 58" src="https://user-images.githubusercontent.com/104095041/227796537-fa3b90c5-a4a7-4de8-bf57-7a5920e9d644.png">
+  <img width="1440" alt="스크린샷 2023-03-28 오전 2 35 41" src="https://user-images.githubusercontent.com/104095041/228021595-e262d15d-cf9f-4f34-9a2c-41bba14298a6.png">
 
 - <b>Information page</b>
-  <img width="1440" alt="스크린샷 2023-03-27 오전 3 31 05" src="https://user-images.githubusercontent.com/104095041/227796589-b1a302f6-964a-4e1f-b015-f96d344ac942.png">
+  <img width="1440" alt="스크린샷 2023-03-28 오전 2 35 50" src="https://user-images.githubusercontent.com/104095041/228021605-13248cf6-40aa-4df1-8bc8-91fabb73ed38.png">
+◊
 
 ---
 
