@@ -37,9 +37,11 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
 }
-.navbar_menu li:hover a{
-    border-bottom: 2px solid black;
+.navbar_menu li:hover a, .navbar_menu a.active{
+    border-bottom: 3px solid black;
+    padding-bottom: 6px;
 }
+   
 
 .navbar_btn{
     position: absolute;
