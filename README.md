@@ -42,8 +42,7 @@
 
 - <b>Information page</b>
   <img width="1440" alt="스크린샷 2023-03-28 오전 2 35 50" src="https://user-images.githubusercontent.com/104095041/228021605-13248cf6-40aa-4df1-8bc8-91fabb73ed38.png">
-◊
-
+  
 ---
 
 <b>TODO</b>
