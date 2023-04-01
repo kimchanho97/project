@@ -2,6 +2,7 @@
 .navbar{
     backdrop-filter: blur(30px);
     position: fixed;
+    height: 152px;
 }
 
 /* section */
@@ -21,6 +22,7 @@
     font-size: 28px;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: -0.1rem;
 }
 .road_title p, .track_title p{
     font-size: 20px;
@@ -73,6 +75,7 @@
 }
 .road_content p{
     text-align: center;
+    letter-spacing: -0.1rem;
 }
 .road_content_box .txt{
     font-size: 24px;
@@ -159,14 +162,50 @@
     font-weight: bold;
     color: #999;
 }
-
-
-
 /* end track section */
 
 /* footer */
 .footerbar{
-    /* change fixed to relative */
     position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 16px 30px;
+    border-top: 1px solid rgb(180, 170, 170);
+    background-color: white;
 }
 
+@media screen and (max-width:1024px) {
+    .road_content{
+        width: 95%;
+    }
+    .track_content_box{
+        align-items: center;
+    }
+    .track_content_box .cont_title{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:968px) {
+    .road_content{
+        background: #FAFAFA;
+        background-image: url(https://www.kakaotechcampus.com/static/user/images/kakao/program_spot_m.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto calc(95%);
+        /* 내용물에 의해 height 정해짐 */
+        height: auto;
+        
+    }
+    .road_content_box{
+        flex-direction: column;
+        margin: 125px 0px;
+    }
+    .stage1, .stage2, .stage3{
+        align-self: center;
+        margin-top: 30px;
+    }
+}
