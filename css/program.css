@@ -1,14 +1,17 @@
+body, html{
+    margin: 0;
+}
 /* header */
 .navbar{
     backdrop-filter: blur(30px);
-    position: fixed;
-    height: 152px;
+    width: 100%;
 }
+
 
 /* section */
 .container{
     /* 상단 navbar 높이 */
-    padding-top: 152px;  
+    padding-top: 156px;  
     padding-bottom: 100px;
 }
 .roadmap, .track{
@@ -165,11 +168,10 @@
 /* end track section */
 
 /* footer */
-.footerbar{
+footer{
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
     font-size: 20px;
     padding: 16px 30px;
     border-top: 1px solid rgb(180, 170, 170);
@@ -207,5 +209,14 @@
     .stage1, .stage2, .stage3{
         align-self: center;
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .road_title, .track_title{
+        font-size: 1.3rem;
+    }
+    .road_title p, .track_title p{
+        font-size: 1rem;
     }
 }

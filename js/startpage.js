@@ -38,25 +38,63 @@ const muscle_cont = document.querySelector('.track_content_m');
 const strength_cont = document.querySelector('.track_content_s');
 
 // 초기 상태
-muscle_btn.classList.add('active');
-strength_cont.style.display = "none";
+if (muscle_btn) {muscle_btn.classList.add('active');}
+if (strength_btn) {strength_cont.style.display = "none";}
 
-muscle_btn.addEventListener('click', function(event){
-    // btn
-    strength_btn.classList.remove('active');
-    muscle_btn.classList.add('active');
+if (muscle_btn){
+    muscle_btn.addEventListener('click', function(event){
+        // btn
+        strength_btn.classList.remove('active');
+        muscle_btn.classList.add('active');
+        
+        // content
+        strength_cont.style.display = "none";
+        muscle_cont.style.display = "flex";
+    });
     
-    // content
-    strength_cont.style.display = "none";
-    muscle_cont.style.display = "flex";
-});
+    strength_btn.addEventListener('click', function(event){
+        // btn
+        muscle_btn.classList.remove('active');
+        strength_btn.classList.add('active');
+        
+        // content
+        muscle_cont.style.display = "none";
+        strength_cont.style.display = "flex";
+    });
+}
 
-strength_btn.addEventListener('click', function(event){
-    // btn
-    muscle_btn.classList.remove('active');
-    strength_btn.classList.add('active');
-    
-    // content
-    muscle_cont.style.display = "none";
-    strength_cont.style.display = "flex";
-});
+
+const pages = document.querySelectorAll(".content .page");
+const footer = document.querySelector(".footerbar");
+let currentPage = 0;
+let lastScrollTime = 0;
+
+if (pages.length > 0){
+    window.addEventListener("wheel", (event) => {
+        const now = Date.now();
+        if (now - lastScrollTime < 1000) {
+            return; // 스크롤 움직임 간격이 1s보다 작으면 무시
+        }
+        lastScrollTime = now;
+
+        if (event.deltaY > 0 && currentPage < pages.length - 1) {
+          currentPage++;
+        } else if (event.deltaY < 0 && currentPage > 0) {
+          currentPage--;
+        }
+               
+        pages.forEach((page) => {
+            page.style.transform = `translateY(-${currentPage * 100}%)`;
+        });
+        console.log(currentPage * 100);
+        console.log(event.deltaY);
+
+        // 현재 페이지가 마지막 페이지인 경우에만 footer를 보여줌
+        // if (currentPage == pages.length - 1) {
+        //   footer.style.position = "relative";
+        // } else {
+        //   footer.style.position = "fixed";
+        // }
+      });
+}
+

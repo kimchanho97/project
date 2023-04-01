@@ -1,0 +1,76 @@
+footer{
+    position : fixed;
+    font-size: 20px;
+    padding: 16px 30px;
+    border-top: 1px solid rgb(180, 170, 170);
+    background-color: white;
+}
+
+html, body{
+    margin: 0;
+}
+
+.container{
+    background-color: beige;
+}
+
+
+.content p{
+    margin: 0;
+}
+.content {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+.content .page {
+   width: 100vw;
+   height: 100vh;
+   transition: transform 1s ease-in-out;
+ }
+
+ /* start page1 */
+#page1{
+   background-color: rgb(255, 227, 50);
+}
+.wrap_page1_txt{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   padding: 100px 70px;
+}
+.page1_txt{
+   width: 90%;
+   height: 90%;
+   background-image: url(https://www.kakaotechcampus.com/static/user/images/kakao/img_about.png);
+   background-size: 100%;
+   background-position: 25%;
+   background-repeat: no-repeat;
+   padding-top: 100px;
+}
+.page1_txt > p{
+   font-size: 1.5rem;
+   letter-spacing: -0.25rem;
+   padding-top: 30px;
+}
+#page1_title{
+   font-size: 3.5rem;
+   font-weight: bold;
+}
+/* end page1 */
+
+/* start page2 */
+#page2{
+   background-color: rgb(184, 117, 117);
+}
+#page3{
+   background-color: rgb(90, 170, 90);
+}
+#page4{
+   background-color: rgb(207, 82, 176);
+}
+#page5{
+   background-color: rgb(194, 140, 78);
+}
