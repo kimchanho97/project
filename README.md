@@ -19,36 +19,37 @@
 
 - <b>Index Page</b>
   ![Index page](https://user-images.githubusercontent.com/104095041/227796310-2914e6f3-2dc2-4344-9c06-def26d456ef7.gif)
-  >- 상단 Navbar
-  >- 반응형 웹 디자인
-  >- 미디어 쿼리 
-  >- Menu button 동작
-  >- Animation 효과
-
-  
-
+  ```
+  - 상단 Navbar
+  - 반응형 웹 디자인
+  - 미디어 쿼리 
+  - Menu button 동작
+  - Animation 효과
+  ```
 <br>
 
 - <b>About page</b>
-![About page](https://user-images.githubusercontent.com/104095041/229358249-d067afd2-6314-4904-9bfe-06ca1fc7e9fe.gif)
-<br>
-  > - Scroll Motion
-
+  ![About page](https://user-images.githubusercontent.com/104095041/229358249-d067afd2-6314-4904-9bfe-06ca1fc7e9fe.gif)
+  ```
+  - Scroll Motion
+  ```
 <br>
 
 - <b>Program page</b>
-PC
-![Program page](https://user-images.githubusercontent.com/104095041/229358238-e0ba6bcc-9a4d-427b-8d28-b4ad29dbcf0e.gif)
-Mobile
-![Program2](https://user-images.githubusercontent.com/104095041/229358244-a158052b-7582-46bb-90d7-51a02036b281.gif)
-<br>
-  > - Contents 추가
-  > - Track button 동작
-
+  PC
+  ![Program page](https://user-images.githubusercontent.com/104095041/229358238-e0ba6bcc-9a4d-427b-8d28-b4ad29dbcf0e.gif)
+  Mobile
+  ![Program2](https://user-images.githubusercontent.com/104095041/229358244-a158052b-7582-46bb-90d7-51a02036b281.gif)
+  ```
+  - Contents 추가
+  - Track button 동작
+  ```
 <br>
 
 - <b>Apply page</b>
   <img width="1440" alt="스크린샷 2023-04-02 오후 10 53 03" src="https://user-images.githubusercontent.com/104095041/229359083-43cbd3a0-03a8-4811-acee-c5f76b2ec830.png">
+
+<br>
 
 - <b>Information page</b>
   <img width="1440" alt="스크린샷 2023-04-02 오후 10 53 21" src="https://user-images.githubusercontent.com/104095041/229359092-4901ee09-3411-4fa3-9edc-64104e37a2f5.png">
