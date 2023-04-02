@@ -20,7 +20,7 @@ body, html{
     align-items: center;
 }
 .road_title, .track_title{
-    width: 100%;
+    /* width: 100%; */
     padding: 60px;
     font-size: 28px;
     line-height: 1.5;

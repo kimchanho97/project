@@ -42,8 +42,8 @@ html, body{
    padding: 100px 70px;
 }
 .page1_txt{
-   width: 90%;
-   height: 90%;
+   width: 80%;
+   height: 80%;
    background-image: url(https://www.kakaotechcampus.com/static/user/images/kakao/img_about.png);
    background-size: 100%;
    background-position: 25%;
@@ -63,14 +63,19 @@ html, body{
 
 /* start page2 */
 #page2{
-   background-color: rgb(184, 117, 117);
+   background-color: #FAFAFA;
 }
 #page3{
-   background-color: rgb(90, 170, 90);
+   background-color: rgb(255, 227, 50);
 }
 #page4{
-   background-color: rgb(207, 82, 176);
+   background-color: #FAFAFA;
 }
 #page5{
-   background-color: rgb(194, 140, 78);
+   background-color: rgb(255, 227, 50);
 }
+#page2 p, #page3 p, #page4 p, #page5 p{
+   text-align: center;
+   font-size: 10rem;
+   padding-top: 300px;
+}  
