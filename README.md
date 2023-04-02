@@ -18,13 +18,14 @@
 #### 구현
 
 - <b>Index Page</b>
-![Index page](https://user-images.githubusercontent.com/104095041/227796310-2914e6f3-2dc2-4344-9c06-def26d456ef7.gif)
-<br>
-  > - 상단 Navbar
-  > - 반응형 웹 디자인
-  > - 미디어 쿼리 
-  > - Menu button 동작
-  > - Animation 효과
+  ![Index page](https://user-images.githubusercontent.com/104095041/227796310-2914e6f3-2dc2-4344-9c06-def26d456ef7.gif)
+  >- 상단 Navbar
+  >- 반응형 웹 디자인
+  >- 미디어 쿼리 
+  >- Menu button 동작
+  >- Animation 효과
+
+  
 
 <br>
 
@@ -58,12 +59,12 @@ Mobile
 
 <b>TODO</b>
 
-> - About Contents 추가
-> - About 미디어쿼리 추가
-> - About animation 추가
+>- About Contents 추가
+>- About 미디어쿼리 추가
+>- About animation 추가
 
 <b>공부방향</b>
 
-> - html box modeling 정밀한 분석
-> - javascript문법에 대한 전반적인 복습필요
-> - javascript event 공부
+>- html box modeling 정밀한 분석
+>- javascript문법에 대한 전반적인 복습필요
+>- javascript event 공부
